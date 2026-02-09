@@ -8,22 +8,31 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
+    Tableau Public and Python were used. THe python code is in the notes file (at the end). 
+    
     > Who is your intended audience? 
-    
+    The intended audience for this visualization is the general public, including Toronto residents, community advocates, and individuals interested in understanding how municipal services are used across the city. The visualization is designed to be interpretable without prior technical or statistical knowledge.    
+
     > What information or message are you trying to convey with your visualization? 
-    
+    The visualization communicates how 311 service requests are distributed across Toronto wards, highlighting which areas generate the highest volume of requests. This helps illustrate patterns in service demand and may reflect differences in population density, infrastructure needs, or access to municipal services across the city.
+
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+    Several design principles were considered, including clarity, simplicity, and visual hierarchy. A horizontal bar chart was used to improve readability of ward labels, and the data were sorted in descending order to make comparisons intuitive. A single, high-contrast colour was selected to avoid visual clutter and to support accessibility. Clear axis labels and a descriptive title were included to ensure the visualization can be understood without additional context.
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    While Tableau Public is not fully reproducible in the same way as code-based tools, reproducibility was supported by using a publicly available dataset and relying on transparent, built-in aggregations (e.g., counts of records by ward). The original dataset and the visualization settings can be accessed and reviewed through Tableau Public, allowing others to recreate or adapt the visualization. However, changes to the dataset or software interface may require manual reconfiguration of the visualization.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    Accessibility was considered by using a colour-blind friendly palette, avoiding red–green contrasts, and ensuring sufficient contrast between bars and background elements. Labels, titles, and axes were written in plain language and sized appropriately for readability. The visualization avoids unnecessary decoration, reducing cognitive load for viewers.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    Communities living in wards with higher volumes of 311 service requests may be impacted by the issues represented in the data, such as infrastructure concerns, noise complaints, or public safety issues. City staff, policymakers, and community organizations may also use this information to better understand service demand and support more equitable resource allocation.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    The visualization focuses on the ward variable and the count of service requests to emphasize geographic differences in service usage. Other variables, such as intersection street names or internal divisions, were excluded because they introduce unnecessary complexity and do not contribute directly to the high-level message intended for a general audience.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Significant unseen work contributed to the final visualization, including reviewing the dataset for missing or inconsistent values, addressing text encoding issues, verifying that dates and categorical variables were correctly interpreted by Tableau, and experimenting with multiple chart types before selecting the most effective design. This preparatory work was essential to ensure accuracy, clarity, and interpretability.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
